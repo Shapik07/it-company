@@ -41,6 +41,8 @@ a {
 }
 
 .site-nav-link {
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -55,8 +57,10 @@ a {
 .hero-name {
   margin-top: 320px;
   margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25px;
   text-align: center;
   color: #ffffff;
 }
@@ -64,9 +68,11 @@ a {
 .hero-header {
   display: block;
   margin-bottom: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 800;
   font-size: 48px;
-  line-height: 64px;
+  line-height: 1.33;
   text-align: center;
   max-width: 800px;
   color: #ffffff;
@@ -84,7 +90,17 @@ a {
   border: transparent;
   color: white;
   cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 330px;
+}
+
+.slogan {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
