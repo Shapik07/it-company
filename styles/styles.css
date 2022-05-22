@@ -1,0 +1,41 @@
+:root {
+}
+
+body {
+  max-width: 1920px;
+  text-decoration: none;
+  padding-inline-start: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Site nav */
+
+.site-nav {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100px;
+  width: 1850px;
+  align-items: center;
+  border-bottom: 1px solid #a1a1a1;
+  position: fixed;
+}
+
+.site-nav-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.site-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+}
